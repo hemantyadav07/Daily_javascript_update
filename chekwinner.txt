@@ -1,33 +1,25 @@
-const mark = {
-    fulname: 'mark miller',
-    mass: 78,
-    height: 1.68,
-    calcBMI function() {
-        this.bmi = this.mass / this.height ** 2
-        return this.bmi
-    }
-};
- const jhon = {
-    fulname: 'jhon smkith',
-    mass: 92,
-    height: 1.95,
-    calcBMI function() {
-        this.bmi = this.mass / this.height ** 2
-        return this.bmi
-    }
-};
-mark.calcBMI();
-jhon.calcBMI();
-console.log(mark.bmi, jhon.bmi)
-
-if(mark.bmi > jhon.bmi){
-    console.log('${mark.fulname} BMI (${mark.BMI})is greter than (${jhon.fulname} BMI) (${jhon.BMI})')
+const day = 'monday';
+switch (day){
+   case 'monday':
+        console.log('plan for javascript lecture');
+        break; 
+   case 'tuesday':
+        console.log('preapre videos and notes');
+        break;
+   case 'thurseday':
+        console.log('take down notes');
+        break;
+   case 'wednesday':
+        console.log('write down code');
+        break;
+   case 'fiday':
+        console.log('record videos and try yourself');
+        break
+   case 'saturday':
+   case 'sunday':  
+        console.log('got chill and enjoy ur holiday');
+        break;
+        default:
+        console.log('not a valid day');
+   
 }
-}
-else if(jhon.bmi > mark.bmi){
-        console.log('${jhon.fulname} BMI (${jhon.BMI})is greter than (${mark.fulname} BMI) (${mark.BMI})')
-
-}
-}
-
- 
