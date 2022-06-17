@@ -1,0 +1,20 @@
+const nameSet = new Set([
+    'hemant',
+    'abhi',
+    'jay',
+    'abhi',
+    'jay',
+    'hemant'
+]);
+console.log(nameSet);
+console.log(nameSet.size);
+console.log(nameSet.has('hemant'));
+console.log(nameSet.has('akash'));
+nameSet.add('prathmesh');
+nameSet.add('mayur');
+nameSet.add('atul');
+console.log(nameSet);
+nameSet.delete('atul');
+console.log(nameSet);
+nameSet.clear();
+console.log(nameSet);
